@@ -3,14 +3,20 @@
   "private": true,
   "description": "",
   "scripts": {
-    "dev": "turbo dev"
+    "dev": "turbo dev",
+    "gen": "turbo gen"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.1",
+    "@turbo/gen": "^2.0.4",
     "turbo": "latest"
   },
   "packageManager": "pnpm@9.4.0",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@microsoft/kiota-serialization-multipart": "^1.0.0-preview.34",
+    "@microsoft/kiota-serialization-text": "^1.0.0-preview.53"
   }
 }

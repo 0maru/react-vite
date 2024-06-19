@@ -6,5 +6,6 @@
 - TailwindCSS
 - React-Aria
 - Storybook
+- Chromatic
 - TypeSpec
 - TurboRepo
