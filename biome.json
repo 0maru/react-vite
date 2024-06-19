@@ -6,7 +6,28 @@
 	"organizeImports": {
 		"enabled": true
 	},
-	"linter": {
+	"formatter": {
+		"enabled": true,
+    "ignore": [],
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "crlf",
+    "lineWidth": 100
+	},
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "single",
+      "quoteProperties": "asNeeded",
+      "semicolons": "always",
+      "trailingCommas": "all"
+    }
+  },
+  "json": {
+    "formatter": {
+      "trailingCommas": "none"
+    }
+  },
+  "linter": {
 		"enabled": true,
 		"rules": {
 			"recommended": true
